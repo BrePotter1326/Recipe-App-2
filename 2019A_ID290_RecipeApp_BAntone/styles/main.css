@@ -1,0 +1,62 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    background-color: teal;
+    width: 100%
+}
+.recipeTitle{
+    background-color: rgba(0,0,0,.4);
+    color: antiquewhite;
+    padding: 10px;
+    border: none;
+    user-select: none;
+    cursor: pointer;
+}
+#getBtn{
+    color: #666;
+    border: 2px solid #666;
+    display: inline-block;
+    padding: 10px;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+    cursor: pointer;
+    text-align: center;
+}
+#getBtn:active{
+    color: #CCC;
+    background-color: #888;
+    border: 2px solid #CCC;
+}
+#recipeInput{
+    background-color: transparent;
+    font-size: 22px;
+    -webkit-transition: all .4s ease-out;
+    -moz-transition: all .4s ease-out;
+    transition: all .4s ease-out;
+    padding: 3px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgba(0,0,0,.6);
+}
+#recipeInput:foucs{
+    background-color: rgba(0,0,0,.4);
+    color: white;
+}
+.recipeItem{
+    height: 39px;
+    transition: all .4s ease-out;
+    -webkit-transition: all .4s ease-out;
+    -moz-transition: all .4s ease-out;
+    overflow: hidden;
+    user-select: none;
+}
+.repiceItem ul{
+    text-align: left;
+    width: 300px;
+    margin: 0 auto;
+}
